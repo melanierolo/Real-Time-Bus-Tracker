@@ -9,6 +9,7 @@ Used a mapboxgl library to add a marker to the map between Harvard and MIT and a
 
 ## Usage:
 
+https://user-images.githubusercontent.com/89095047/140798316-dec8b9c7-cb49-4b55-8d6e-f0925191ea8b.mp4
 
 ## Roadmap:
 
