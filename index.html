@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Map Animation</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.11.0/mapbox-gl.css" rel="stylesheet" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">                                     <!--font google-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                            <!--font google-->
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap" rel="stylesheet"><!--font google-->
+</head>
+
+<body>
+    
+    <div id="map"></div>
+    <div class="map-overlay top">
+        <h1 id="create_buttons">Show stops between MIT and Harvard:</h1>
+        <button onclick="move()">Click</button>
+        <h1 id="create_buttons">Show list of all bus stops:</h1>
+        <ul id="mylist">
+            <li><button  onclick="busStop1()">Bus Stop 1</button></li>
+            <li><button  onclick="busStop2()">Bus Stop 2</button></li>
+            <li><button  onclick="busStop3()">Bus Stop 3</button></li>
+            <li><button  onclick="busStop4()">Bus Stop 4</button></li>
+            <li><button  onclick="busStop5()">Bus Stop 5</button></li>
+            <li><button  onclick="busStop6()">Bus Stop 6</button></li>
+            <li><button  onclick="busStop7()">Bus Stop 7</button></li>
+            <li><button  onclick="busStop8()">Bus Stop 8</button></li>
+            <li><button  onclick="busStop9()">Bus Stop 9</button></li>
+            <li><button  onclick="busStop10()">Bus Stop 10</button></li>
+            <li><button  onclick="busStop11()">Bus Stop 11</button></li>
+            <li><button  onclick="busStop12()">Bus Stop 12</button></li>
+        </ul>
+    </div>
+    <script src="./mapanimation.js"></script>
+</body>
+
+</html>
+
+<!--Client-side JavaScript library:https://docs.mapbox.com/mapbox-gl-js/example/-->
