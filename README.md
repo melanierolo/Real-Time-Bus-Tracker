@@ -4,8 +4,8 @@ Used a mapboxgl library to add a marker to the map between Harvard and MIT and a
 
 ## How to run:
 
-1. Fork and download the project
-2. Open index.html file in the browser
+1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) and download the project.
+2. Open index.html file in the browser.
 
 ## Usage:
 
@@ -14,7 +14,7 @@ https://user-images.githubusercontent.com/89095047/140798316-dec8b9c7-cb49-4b55-
 ## Roadmap:
 
 v1.0: 
-1. You can marker a bus stop between MIT and Harvard
+1. You can marker a bus stop between MIT and Harvard.
 2. On the top right corner of the page, you can find a zoom and rotation controls to the map.
 
 ## License information: 
